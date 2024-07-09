@@ -1,8 +1,8 @@
 {
   "name": "multipart-uploader-backend",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "lib.js",
+  "main": "lib/lib.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
