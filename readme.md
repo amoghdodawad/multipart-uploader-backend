@@ -73,7 +73,7 @@ async function complete(req, res){
 
 #### Initialise the upload
 
-```http
+```
   multipartUploader.initialiseUpload( fileName, totalChunks )
 ```
 | Parameter | Type     | Description                |
@@ -82,7 +82,7 @@ async function complete(req, res){
 | `totalChunks` | `integer` | **Required**. No. of chunks file is split into. |
 
 #### Upload the chunk
-```http
+```
   multipartUploader.chunkUpload( req )
 ```
 | Parameter | Type     | Description                |
@@ -90,7 +90,7 @@ async function complete(req, res){
 | `req` | `Request` | **Required**. NodeJS HTTP Request object. |
 
 #### Upload the chunk
-```http
+```
   multipartUploader.completeUpload( uploadId )
 ```
 | Parameter | Type     | Description                |
